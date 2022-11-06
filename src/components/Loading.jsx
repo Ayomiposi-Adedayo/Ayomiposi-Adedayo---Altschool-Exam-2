@@ -6,7 +6,7 @@ const Loading = ({ type, color }) => {
     "place-items": "center",
   };
 
-  return <ReactLoading style={loading} type={type} color={color} height={10} width={10} />;
+  // return <ReactLoading style={loading} type={type} color={color} height={4} width={4} />;
 };
 
 export default Loading;

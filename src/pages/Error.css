@@ -10,8 +10,17 @@
   color: rgb(158, 43, 43);
 }
 .error-page a {
-  background-color: rgb(140, 140, 244);
+  background-color: #1f262f;
+  transition: all ease-in 0.3s;
+  border-radius: 8px;
+  
   padding: 1rem;
   color: #eee;
   display: inline-block;
+  text-decoration: none;
+}
+
+.error-page a:hover {
+  background-color: #181e25d6;
+
 }

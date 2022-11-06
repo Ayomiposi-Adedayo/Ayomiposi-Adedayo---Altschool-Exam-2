@@ -55,17 +55,20 @@ const Home = ({ allRepos }) => {
         <Loading type="bubbles" color="gray" />
       ) : (
         <div className="all-repos">
+         
           {currentItems.map((repo) => {
             return (
-              <div
+           <div
                 key={repo.id}
                 className="repo"
                 onClick={() => {
                   navigate(`/repos/${repo.id}`);
                 }}
               >
-                <p>{repo.name}</p>
-                <p>{repo.full_name}</p>
+               
+                  <p className="repo-name">{repo.name}</p>
+                  <p className="repo-full-name">{repo.full_name}</p>
+                
               </div>
             );
           })}
