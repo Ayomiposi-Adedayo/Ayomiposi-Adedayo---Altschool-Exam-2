@@ -3,6 +3,13 @@
   padding: 2rem;
   max-width: 800px;
   margin: 0 auto;
+  background-image: url(https://res.cloudinary.com/percy-1789/image/upload/v1667771644/Oops_404_Error_with_a_broken_robot-amico_1_pctgvl.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 80vh;
+  display: flex;
+    justify-content: center;
+    align-items: end;
 }
 
 .error-page p {
@@ -10,7 +17,8 @@
   color: rgb(158, 43, 43);
 }
 .error-page a {
-  background-color: #1f262f;
+  background-color: #243041;
+  background-color: #647382;
   transition: all ease-in 0.3s;
   border-radius: 8px;
   
@@ -21,6 +29,6 @@
 }
 
 .error-page a:hover {
-  background-color: #181e25d6;
+  background-color: #272f39;
 
 }

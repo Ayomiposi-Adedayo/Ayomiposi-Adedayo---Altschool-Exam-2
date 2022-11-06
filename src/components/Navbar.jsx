@@ -7,6 +7,7 @@ const Navbar = () => {
       <nav>
         <p>Ayomiposi Adedayo</p>
         <p>repos</p>
+        
       </nav>
     </header>
   );
