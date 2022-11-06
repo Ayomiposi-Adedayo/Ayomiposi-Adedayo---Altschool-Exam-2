@@ -1,7 +1,13 @@
 .repo-card {
-  margin: 2rem;
+  margin: auto;
+  margin-top: 3%;
   width: 90%;
   max-width: 800px;
+  color: #ccc;
+  border: 1px solid #30363d;
+  border-radius: 8px;
+  padding: 2%;
+
 
 }
 h2 {
@@ -10,12 +16,20 @@ h2 {
 p {
   margin-bottom: 1rem;
 }
+
 button {
   width: 100%;
-  background-color: rgb(244, 96, 96);
+  background-color: #1f262f;
   border: none;
+  border-radius: 8px;
   color: whitesmoke;
   padding: 1rem;
+  transition: all ease-in 0.3s;
+}
+
+button:hover {
+  background-color: #181e25d6;
+
 }
 .error-repo {
   /* outline: 1px solid red; */
