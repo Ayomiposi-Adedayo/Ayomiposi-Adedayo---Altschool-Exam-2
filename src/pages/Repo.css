@@ -1,0 +1,31 @@
+.repo-card {
+  margin: 2rem;
+  width: 90%;
+  max-width: 800px;
+
+}
+h2 {
+  text-decoration: underline;
+}
+p {
+  margin-bottom: 1rem;
+}
+button {
+  width: 100%;
+  background-color: rgb(244, 96, 96);
+  border: none;
+  color: whitesmoke;
+  padding: 1rem;
+}
+.error-repo {
+  /* outline: 1px solid red; */
+  text-align: center;
+  font-size: 2rem;
+  padding: 10rem 0;
+}
+.error-repo button {
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: 2rem;
+}

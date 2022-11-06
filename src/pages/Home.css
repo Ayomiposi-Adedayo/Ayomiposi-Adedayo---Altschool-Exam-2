@@ -1,0 +1,36 @@
+.all-repos {
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.page-numbers {
+  display: flex;
+  list-style: none;
+  margin-top: 2rem;
+  padding: 2rem;
+}
+
+.page-numbers li {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.page-numbers li.active {
+  background-color: #777;
+  color: #ccc;
+}
+.repo {
+  cursor: pointer;
+  margin: 0 0.8rem;
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 8px;
+  background-color: rgb(103, 103, 103);
+  color: #ccc;
+}
+
+.repo p:nth-child(1) {
+  font-weight: 600;
+  margin-bottom: 0.8rem;
+}

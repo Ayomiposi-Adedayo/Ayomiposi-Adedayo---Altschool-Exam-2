@@ -1,0 +1,21 @@
+header {
+  /* outline: 1px solid red; */
+  background-color: #444;
+}
+
+nav {
+  font-weight: 600;
+  font-size: 2rem;
+  /* outline: 1px solid red; */
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  color: #ccc;
+  max-width: 800px;
+  margin: 0 auto;
+}
+nav p:nth-child(2) {
+  font-size: 1rem;
+}

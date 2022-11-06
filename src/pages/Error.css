@@ -1,0 +1,17 @@
+.error-page {
+  /* outline: 1px solid red; */
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.error-page p {
+  font-size: 2rem;
+  color: rgb(158, 43, 43);
+}
+.error-page a {
+  background-color: rgb(140, 140, 244);
+  padding: 1rem;
+  color: #eee;
+  display: inline-block;
+}
